@@ -39,7 +39,7 @@
 <details>
 
 <summary>Testes dependente do tempo</summary>
-O<p>bserve que a funcionalidade que calcula a idade depende do tempo corrente. Como fazer um teste de unidade, se o seu resultado pode ser diferente daqui a algum tempo? Para isso, precisamos, de alguma forma, controlar o valor retornado quando pedimos o valor do momento corrente.</p>
+<p>Observe que a funcionalidade que calcula a idade depende do tempo corrente. Como fazer um teste de unidade, se o seu resultado pode ser diferente daqui a algum tempo? Para isso, precisamos, de alguma forma, controlar o valor retornado quando pedimos o valor do momento corrente.</p>
 
 <p>Crie uma classe chamada Relogio e nessa classe crie um método chamado agora(), que retorna o valor de System.currentTimeMillis(). Crie uma variável, que se o valor dela não for zero, seu valor deve ser retornado no método agora(). Se você utilizar a classe Relogio para obter o tempo, será possível nos testes fazer com que ele retorne sempre um valor fixo! </p>
 </details>
